@@ -1,4 +1,5 @@
 import React from 'react';
+import Post from './components/Post';
 function App(){ 
   return(
     <div>
@@ -8,7 +9,7 @@ function App(){
         
         {/* Feed */}
         
-        {/* Post */} 
+        <Post /> 
     
     </div>
   )
